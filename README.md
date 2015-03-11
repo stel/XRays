@@ -2,7 +2,11 @@
 
 XRays is an educational level 3D modelling and rendering system for Windows. It doesn't use OpenGL or DirectX, just plain math.
 
+<img src="http://i.imgur.com/7BO9IrG.png" title="XRays Modelling" />
+
 XRays allows you to create and modify the three-dimensional polygonal objects in real time and perform a realistic rendering of the resulting scene.
+
+<img src="http://i.imgur.com/3KD8kXU.png" title="XRays Rendering" />
 
 Some algorithms used:
 
