@@ -1,0 +1,480 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Russian resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_RUS)
+#ifdef _WIN32
+LANGUAGE LANG_RUSSIAN, SUBLANG_DEFAULT
+#pragma code_page(1251)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_RUS)\r\n"
+    "LANGUAGE 25, 1\r\n"
+    "#pragma code_page(1251)\r\n"
+    "#include ""res\\XRays.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""         // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\XRays.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_CUBE                BITMAP                  "res\\cube.bmp"
+IDR_VIEWPORTCONTROLTOOLBAR BITMAP                  "res\\toolbar1.bmp"
+ID_MAINTOOLBAR          BITMAP                  "res\\bmp00001.bmp"
+IDB_VIEWPORTCONTROLTOOLBAR BITMAP                  "res\\bitmap1.bmp"
+IDB_MAINTOOLBAR         BITMAP                  "res\\bmp00002.bmp"
+IDB_MAINTOOLBAR_GRAY    BITMAP                  "res\\bmp00003.bmp"
+IDB_MAINTOOLBAR_HOT     BITMAP                  "res\\bmp00004.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Toolbar
+//
+
+IDR_VIEWPORTCONTROLTOOLBAR TOOLBAR  17, 17
+BEGIN
+    BUTTON      ID_VPM_ROTATECAMERA
+    BUTTON      ID_VPM_MOVECAMERA
+END
+
+ID_MAINTOOLBAR TOOLBAR  18, 18
+BEGIN
+    BUTTON      ID_NEWSCENE
+    SEPARATOR
+    BUTTON      ID_ADDFACE
+    BUTTON      ID_ADDCUBE
+    BUTTON      ID_ADDLIGHT
+    SEPARATOR
+    BUTTON      ID_VPM_SELECT
+    BUTTON      ID_VPM_MOVEOBJECT
+    BUTTON      ID_VPM_ROTATEOBJECT
+    SEPARATOR
+    BUTTON      ID_VPM_SELECTOBJECT
+    BUTTON      ID_VPM_SELECTFASE
+    BUTTON      ID_VPM_SELECTVERTEX
+    SEPARATOR
+    BUTTON      ID_RENDER
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MAINFRAME MENU 
+BEGIN
+    POPUP "&Файл"
+    BEGIN
+        MENUITEM "Выход",                       ID_APP_EXIT
+    END
+    POPUP "Правка"
+    BEGIN
+        MENUITEM "&Undo\tCtrl+Z",               ID_EDIT_UNDO
+        MENUITEM SEPARATOR
+        MENUITEM "Cu&t\tCtrl+X",                ID_EDIT_CUT
+        MENUITEM "&Copy\tCtrl+C",               ID_EDIT_COPY
+        MENUITEM "&Paste\tCtrl+V",              ID_EDIT_PASTE
+    END
+    POPUP "Вид"
+    BEGIN
+        MENUITEM "&Toolbar",                    ID_VIEW_TOOLBAR
+        MENUITEM "&Status Bar",                 ID_VIEW_STATUS_BAR
+        MENUITEM "Viewport Control Tolbar",     ID_VIEW_VIEWPORTCONTROLTOLBAR
+    END
+    POPUP "Помощь"
+    BEGIN
+        MENUITEM "&About XRays...",             ID_APP_ABOUT
+    END
+END
+
+IDR_VIEWPORT_MENU MENU 
+BEGIN
+    POPUP "Viewport"
+    BEGIN
+        MENUITEM "Добавить",                    ID_VIEWPORT_ADD
+        MENUITEM "Удалить",                     ID_VIEWPORT_DELETE
+        MENUITEM "Редактировать",               ID_VIEWPORT_EDIT
+        MENUITEM SEPARATOR
+        MENUITEM "Развернуть",                  ID_VIEWPORT_MAXIMIZE
+        POPUP "Проекция"
+        BEGIN
+            MENUITEM "Спереди",                     ID_PROJECTION_FRONT
+            MENUITEM "Сзади",                       ID_PROJECTION_BACK
+            MENUITEM "Сверху",                      ID_PROJECTION_TOP
+            MENUITEM "Снизу",                       ID_PROJECTION_BOTTOM
+            MENUITEM "Слева",                       ID_PROJECTION_LEFT
+            MENUITEM "Справа",                      ID_PROJECTION_RIGHT
+            MENUITEM "Перспектива",                 ID_PROJECTION_PERSPECTIVE
+        END
+        POPUP "Вид"
+        BEGIN
+            MENUITEM "Каркасный",                   ID_RENDER_WIRED
+            MENUITEM "Плоский",                     ID_RENDER_FLAT
+        END
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDR_MAINFRAME ACCELERATORS 
+BEGIN
+    "C",            ID_EDIT_COPY,           VIRTKEY, CONTROL, NOINVERT
+    "V",            ID_EDIT_PASTE,          VIRTKEY, CONTROL, NOINVERT
+    VK_BACK,        ID_EDIT_UNDO,           VIRTKEY, ALT, NOINVERT
+    VK_DELETE,      ID_EDIT_CUT,            VIRTKEY, SHIFT, NOINVERT
+    VK_F6,          ID_NEXT_PANE,           VIRTKEY, NOINVERT
+    VK_F6,          ID_PREV_PANE,           VIRTKEY, SHIFT, NOINVERT
+    VK_INSERT,      ID_EDIT_COPY,           VIRTKEY, CONTROL, NOINVERT
+    VK_INSERT,      ID_EDIT_PASTE,          VIRTKEY, SHIFT, NOINVERT
+    "X",            ID_EDIT_CUT,            VIRTKEY, CONTROL, NOINVERT
+    "Z",            ID_EDIT_UNDO,           VIRTKEY, CONTROL, NOINVERT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 235, 55
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "About XRays"
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,7,7,21,20,SS_REALSIZEIMAGE
+    LTEXT           "XRays Version 1.0",IDC_STATIC,53,15,119,8,SS_NOPREFIX
+    LTEXT           "Copyright (C) 2007",IDC_STATIC,53,30,119,8
+    DEFPUSHBUTTON   "OK",IDOK,178,7,50,16,WS_GROUP
+END
+
+IDD_ADDCUBE_DLG DIALOGEX 0, 0, 258, 134
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_TOOLWINDOW
+CAPTION "Добавление куба"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "Добавить",ID_ADD,72,113,50,14
+    PUSHBUTTON      "Отменить",IDCANCEL,135,113,50,14
+    EDITTEXT        IDC_EDIT_X,26,73,40,12,ES_AUTOHSCROLL
+    GROUPBOX        "Положение",IDC_STATIC,9,54,239,48
+    LTEXT           "X:",IDC_STATIC,16,78,8,8
+    EDITTEXT        IDC_EDIT_Y,108,73,40,12,ES_AUTOHSCROLL
+    LTEXT           "Y:",IDC_STATIC,98,78,8,8
+    EDITTEXT        IDC_EDIT_Z,190,73,40,12,ES_AUTOHSCROLL
+    LTEXT           "Z:",IDC_STATIC,182,78,8,8
+    GROUPBOX        "Свойства",IDC_STATIC,9,9,239,40
+    EDITTEXT        IDC_EDIT_SIZE,126,23,40,12,ES_AUTOHSCROLL
+    LTEXT           "Размер:",IDC_STATIC,96,27,27,8
+    PUSHBUTTON      "Цвет..",IDC_COLORBTN,16,23,50,14
+END
+
+IDD_RENDEROPTIONSDLG DIALOGEX 0, 0, 157, 102
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_TOOLWINDOW
+CAPTION "Render Options"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "Визуализация",IDC_BTN_RENDER,17,81,57,14
+    PUSHBUTTON      "Отмена",IDCANCEL,84,81,50,14
+    PUSHBUTTON      "Цвет фона..",IDC_BTN_BGCOLOR,16,17,79,14
+    LTEXT           "Уровень сглаживания (1, 2, 4)",IDC_STATIC,15,43,47,33
+    EDITTEXT        IDC_EDT_ANTIALIASING,81,55,40,14,ES_AUTOHSCROLL
+END
+
+IDD_OBJECTPROPERTIES DIALOGEX 0, 0, 242, 188
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Свойства"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,62,167,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,123,167,50,14
+    EDITTEXT        IDC_EDIT_X,29,112,40,12,ES_AUTOHSCROLL
+    GROUPBOX        "Положение",IDC_STATIC,7,94,228,48
+    LTEXT           "X:",IDC_STATIC,19,117,8,8
+    EDITTEXT        IDC_EDIT_Y,99,113,40,12,ES_AUTOHSCROLL
+    LTEXT           "Y:",IDC_STATIC,89,118,8,8
+    EDITTEXT        IDC_EDIT_Z,175,113,40,12,ES_AUTOHSCROLL
+    LTEXT           "Z:",IDC_STATIC,167,118,8,8
+    GROUPBOX        "Свойства",IDC_STATIC,7,9,228,76
+    PUSHBUTTON      "Цвет..",IDC_COLORBTN,18,22,50,14
+    EDITTEXT        IDC_EDT_REFLECTIVITY,113,40,40,12,ES_AUTOHSCROLL
+    LTEXT           "Коэффициент отражения:",IDC_STATIC,19,45,90,8
+    LTEXT           "%",IDC_STATIC,156,43,8,8
+END
+
+IDD_DIALOG1 DIALOGEX 0, 0, 242, 86
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,64,65,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,128,65,50,14
+    EDITTEXT        IDC_EDIT_X,29,25,40,12,ES_AUTOHSCROLL
+    GROUPBOX        "Положение",IDC_STATIC,7,7,228,48
+    LTEXT           "X:",IDC_STATIC,19,30,8,8
+    EDITTEXT        IDC_EDIT_Y,99,26,40,12,ES_AUTOHSCROLL
+    LTEXT           "Y:",IDC_STATIC,89,31,8,8
+    EDITTEXT        IDC_EDIT_Z,175,26,40,12,ES_AUTOHSCROLL
+    LTEXT           "Z:",IDC_STATIC,167,31,8,8
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904e4"
+        BEGIN
+            VALUE "CompanyName", "TODO: <Company name>"
+            VALUE "FileDescription", "TODO: <File description>"
+            VALUE "FileVersion", "1.0.0.1"
+            VALUE "InternalName", "XRays.exe"
+            VALUE "LegalCopyright", "TODO: (c) <Company name>.  All rights reserved."
+            VALUE "OriginalFilename", "XRays.exe"
+            VALUE "ProductName", "TODO: <Product name>"
+            VALUE "ProductVersion", "1.0.0.1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1252
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 228
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 48
+    END
+
+    IDD_ADDCUBE_DLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 9
+        RIGHTMARGIN, 248
+        TOPMARGIN, 9
+        BOTTOMMARGIN, 127
+    END
+
+    IDD_RENDEROPTIONSDLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 150
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 95
+    END
+
+    IDD_OBJECTPROPERTIES, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 235
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 181
+    END
+
+    IDD_DIALOG1, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 235
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 79
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDR_MAINFRAME           "XRays"
+END
+
+STRINGTABLE 
+BEGIN
+    AFX_IDS_APP_TITLE       "XRays"
+    AFX_IDS_IDLEMESSAGE     "Ready"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_INDICATOR_EXT        "EXT"
+    ID_INDICATOR_CAPS       "CAP"
+    ID_INDICATOR_NUM        "NUM"
+    ID_INDICATOR_SCRL       "SCRL"
+    ID_INDICATOR_OVR        "OVR"
+    ID_INDICATOR_REC        "REC"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_APP_ABOUT            "Display program information, version number and copyright\nAbout"
+    ID_APP_EXIT             "Quit the application; prompts to save documents\nExit"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_NEXT_PANE            "Switch to the next window pane\nNext Pane"
+    ID_PREV_PANE            "Switch back to the previous window pane\nPrevious Pane"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_WINDOW_SPLIT         "Split the active window into panes\nSplit"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_EDIT_CLEAR           "Erase the selection\nErase"
+    ID_EDIT_CLEAR_ALL       "Erase everything\nErase All"
+    ID_EDIT_COPY            "Copy the selection and put it on the Clipboard\nCopy"
+    ID_EDIT_CUT             "Cut the selection and put it on the Clipboard\nCut"
+    ID_EDIT_FIND            "Find the specified text\nFind"
+    ID_EDIT_PASTE           "Insert Clipboard contents\nPaste"
+    ID_EDIT_REPEAT          "Repeat the last action\nRepeat"
+    ID_EDIT_REPLACE         "Replace specific text with different text\nReplace"
+    ID_EDIT_SELECT_ALL      "Select the entire document\nSelect All"
+    ID_EDIT_UNDO            "Undo the last action\nUndo"
+    ID_EDIT_REDO            "Redo the previously undone action\nRedo"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_VIEW_TOOLBAR         "Show or hide the toolbar\nToggle ToolBar"
+    ID_VIEW_STATUS_BAR      "Show or hide the status bar\nToggle StatusBar"
+END
+
+STRINGTABLE 
+BEGIN
+    AFX_IDS_SCSIZE          "Change the window size"
+    AFX_IDS_SCMOVE          "Change the window position"
+    AFX_IDS_SCMINIMIZE      "Reduce the window to an icon"
+    AFX_IDS_SCMAXIMIZE      "Enlarge the window to full size"
+    AFX_IDS_SCNEXTWINDOW    "Switch to the next document window"
+    AFX_IDS_SCPREVWINDOW    "Switch to the previous document window"
+    AFX_IDS_SCCLOSE         "Close the active window and prompts to save the documents"
+END
+
+STRINGTABLE 
+BEGIN
+    AFX_IDS_SCRESTORE       "Restore the window to normal size"
+    AFX_IDS_SCTASKLIST      "Activate Task List"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_VIEW_WIRED           "Show wire"
+END
+
+#endif    // Russian resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_RUS)
+LANGUAGE 25, 1
+#pragma code_page(1251)
+#include "res\XRays.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"         // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

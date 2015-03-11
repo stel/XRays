@@ -1,0 +1,280 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="UI">
+      <UniqueIdentifier>{1dd27b37-76ab-45a3-9ba8-d74786ff29f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\XViewportsContainer">
+      <UniqueIdentifier>{9d0f03ac-541c-4a4d-b030-4240b16eb42e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\XViewport">
+      <UniqueIdentifier>{e57f8173-72f6-4ade-9514-08ddb06e6d1d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\XAddCubeDlg">
+      <UniqueIdentifier>{4edb38d0-8d5d-4a67-a44b-f731749f25c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\MainForm">
+      <UniqueIdentifier>{c85f8050-01b3-412f-835e-84d4a0dcac6b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\XRenderOutputWnd">
+      <UniqueIdentifier>{aab4cf4f-a367-4168-b651-0d11fc89b8e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\XRenderOptionsDlg">
+      <UniqueIdentifier>{8c79da40-802a-4fff-8de5-ee2962fbade0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\XPropertiesDlg">
+      <UniqueIdentifier>{ad6e53e1-9bc5-4a85-b010-c7e8e6dcbdc7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\XMoveDlg">
+      <UniqueIdentifier>{a856659f-5ce6-44a8-9fbb-bfc6fb463d9b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine">
+      <UniqueIdentifier>{00693a6b-a347-4c0f-b536-5e430d0e315a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\XCamera">
+      <UniqueIdentifier>{6ecdb785-1893-4f9d-b008-f4638fc15560}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\ATD">
+      <UniqueIdentifier>{51fbfd09-856e-417a-987c-632dc6d83c53}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\XScene">
+      <UniqueIdentifier>{f79161c8-62e2-4299-980e-9459ea99255b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\XMesh">
+      <UniqueIdentifier>{0f0068b9-612e-43a9-94cb-31b191062b85}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\XRender">
+      <UniqueIdentifier>{dda3a4f6-e17c-4580-b2f0-0d0f228de49c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\XCoordSystem">
+      <UniqueIdentifier>{7a5c1879-a25b-479c-841b-bbddc6abfd80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\XRenderFlat">
+      <UniqueIdentifier>{59733bb8-b2ce-4436-85b8-664b1f92dd45}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\XSceneObject">
+      <UniqueIdentifier>{c41a561b-1c0b-4bee-917f-8244fe9b2b34}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\XRenderWired">
+      <UniqueIdentifier>{aeeb5f10-ec26-4dee-b78a-cb6a8f284585}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\XLight">
+      <UniqueIdentifier>{075eece8-29c1-45e5-875f-f6eb38ecea7c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\XColor">
+      <UniqueIdentifier>{396fd513-9d9e-4250-99ae-163465b6eff6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\XRenderRayTrace">
+      <UniqueIdentifier>{a7583df6-1699-44a5-94ab-0c3faa7b87f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\XRay">
+      <UniqueIdentifier>{f4a8f7ac-980a-4da3-ac37-80681e855f0a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="XRays.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TrueColorToolBar.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="XViewportsContainer.cpp">
+      <Filter>UI\XViewportsContainer</Filter>
+    </ClCompile>
+    <ClCompile Include="XViewport.cpp">
+      <Filter>UI\XViewport</Filter>
+    </ClCompile>
+    <ClCompile Include="XAddCubeDlg.cpp">
+      <Filter>UI\XAddCubeDlg</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>UI\MainForm</Filter>
+    </ClCompile>
+    <ClCompile Include="XRenderOutputWnd.cpp">
+      <Filter>UI\XRenderOutputWnd</Filter>
+    </ClCompile>
+    <ClCompile Include="XRenderOptionsDlg.cpp">
+      <Filter>UI\XRenderOptionsDlg</Filter>
+    </ClCompile>
+    <ClCompile Include="XPropertiesDlg.cpp">
+      <Filter>UI\XPropertiesDlg</Filter>
+    </ClCompile>
+    <ClCompile Include="XMoveDlg.cpp">
+      <Filter>UI\XMoveDlg</Filter>
+    </ClCompile>
+    <ClCompile Include="XCamera.cpp">
+      <Filter>Engine\XCamera</Filter>
+    </ClCompile>
+    <ClCompile Include="XScene.cpp">
+      <Filter>Engine\XScene</Filter>
+    </ClCompile>
+    <ClCompile Include="XRender.cpp">
+      <Filter>Engine\XRender</Filter>
+    </ClCompile>
+    <ClCompile Include="XRenderFlat.cpp">
+      <Filter>Engine\XRenderFlat</Filter>
+    </ClCompile>
+    <ClCompile Include="XSceneObject.cpp">
+      <Filter>Engine\XSceneObject</Filter>
+    </ClCompile>
+    <ClCompile Include="XRenderWired.cpp">
+      <Filter>Engine\XRenderWired</Filter>
+    </ClCompile>
+    <ClCompile Include="XLight.cpp">
+      <Filter>Engine\XLight</Filter>
+    </ClCompile>
+    <ClCompile Include="XColor.cpp">
+      <Filter>Engine\XColor</Filter>
+    </ClCompile>
+    <ClCompile Include="XRenderRayTrace.cpp">
+      <Filter>Engine\XRenderRayTrace</Filter>
+    </ClCompile>
+    <ClCompile Include="XRay.cpp">
+      <Filter>Engine\XRay</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="XRays.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TrueColorToolBar.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="XViewportsContainer.h">
+      <Filter>UI\XViewportsContainer</Filter>
+    </ClInclude>
+    <ClInclude Include="XViewport.h">
+      <Filter>UI\XViewport</Filter>
+    </ClInclude>
+    <ClInclude Include="XAddCubeDlg.h">
+      <Filter>UI\XAddCubeDlg</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrm.h">
+      <Filter>UI\MainForm</Filter>
+    </ClInclude>
+    <ClInclude Include="XRenderOutputWnd.h">
+      <Filter>UI\XRenderOutputWnd</Filter>
+    </ClInclude>
+    <ClInclude Include="XRenderOptionsDlg.h">
+      <Filter>UI\XRenderOptionsDlg</Filter>
+    </ClInclude>
+    <ClInclude Include="XPropertiesDlg.h">
+      <Filter>UI\XPropertiesDlg</Filter>
+    </ClInclude>
+    <ClInclude Include="XMoveDlg.h">
+      <Filter>UI\XMoveDlg</Filter>
+    </ClInclude>
+    <ClInclude Include="XCamera.h">
+      <Filter>Engine\XCamera</Filter>
+    </ClInclude>
+    <ClInclude Include="XArray.h">
+      <Filter>Engine\ATD</Filter>
+    </ClInclude>
+    <ClInclude Include="XLine3d.h">
+      <Filter>Engine\ATD</Filter>
+    </ClInclude>
+    <ClInclude Include="XTriangle.h">
+      <Filter>Engine\ATD</Filter>
+    </ClInclude>
+    <ClInclude Include="XVector3d.h">
+      <Filter>Engine\ATD</Filter>
+    </ClInclude>
+    <ClInclude Include="XZBuffer.h">
+      <Filter>Engine\ATD</Filter>
+    </ClInclude>
+    <ClInclude Include="XScene.h">
+      <Filter>Engine\XScene</Filter>
+    </ClInclude>
+    <ClInclude Include="XFace.h">
+      <Filter>Engine\XMesh</Filter>
+    </ClInclude>
+    <ClInclude Include="XMesh.h">
+      <Filter>Engine\XMesh</Filter>
+    </ClInclude>
+    <ClInclude Include="XVertex.h">
+      <Filter>Engine\XMesh</Filter>
+    </ClInclude>
+    <ClInclude Include="XRender.h">
+      <Filter>Engine\XRender</Filter>
+    </ClInclude>
+    <ClInclude Include="XCoordSystem.h">
+      <Filter>Engine\XCoordSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="XRenderFlat.h">
+      <Filter>Engine\XRenderFlat</Filter>
+    </ClInclude>
+    <ClInclude Include="XSceneObject.h">
+      <Filter>Engine\XSceneObject</Filter>
+    </ClInclude>
+    <ClInclude Include="XRenderWired.h">
+      <Filter>Engine\XRenderWired</Filter>
+    </ClInclude>
+    <ClInclude Include="XLight.h">
+      <Filter>Engine\XLight</Filter>
+    </ClInclude>
+    <ClInclude Include="XColor.h">
+      <Filter>Engine\XColor</Filter>
+    </ClInclude>
+    <ClInclude Include="XRayTraceScene.h">
+      <Filter>Engine\XRenderRayTrace</Filter>
+    </ClInclude>
+    <ClInclude Include="XRenderRayTrace.h">
+      <Filter>Engine\XRenderRayTrace</Filter>
+    </ClInclude>
+    <ClInclude Include="XRay.h">
+      <Filter>Engine\XRay</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\bitmap1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bmp00001.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bmp00002.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bmp00003.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bmp00004.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\cube.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\toolbar1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\XRays.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="XRays.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
