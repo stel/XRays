@@ -1,6 +1,6 @@
 # XRays
 
-XRays is an educational level 3D modelling and rendering system for Windows. It doesn't use OpenGL or DirectX, just plain math.
+XRays is an educational level 3D modelling and rendering system for Windows created in early 2009. It doesn't use OpenGL or DirectX, just plain math.
 
 <img src="http://i.imgur.com/7BO9IrG.png" title="XRays Modelling" />
 
